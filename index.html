@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    #main {
+      margin: 0 auto;
+      width: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div class="">
+      <h1>Video MP4</h1>
+      <video width="480" height="320" controls>
+        <source src="http://localhost:8080/resources/bigbuck.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div>
+      <h1>Streaming</h1>
+    </div>
+
+    <div>
+      <h1>PDF file</h1>
+      <embed src="http://localhost:8080/resources/sample.pdf" width="480px" height="320px" />
+    </div>
+    <div>
+      <h1>Word Document</h1>
+      <iframe src="http://localhost:8080/resources/sample.docx&embedded=true"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
